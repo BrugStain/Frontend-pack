@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #e6e6e6;
+	font-family: Arial;
+}
+
+header{
+	background: url("Capibara-alta-resolucion.png") 50% 50% ;
+	padding-top: 100px;
+	margin-bottom: 
+
+}
+
+.principal{
+	color: #343a40;
+}
+
+header, .main, footer{
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto ;
+}
+
+header h1{
+	float: left;
+	color: #fff;
+}
+
+header nav{
+	overflow: hidden;
+}
+
+header nav ul{
+	list-style: none;
+}
+
+header nav ul li{
+	float: right;
+}
+
+header nav ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+header nav ul li a:hover{
+	background: #75ACEC;
+}
+
+.main  .articles{
+	width: 68.5%;
+	float: left;
+	margin-right: 1.5%
+}
+
+.main .articles article{
+	padding: 20px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+aside{
+	width: 30%;
+	background: #dc3545;
+	color: #f8f9fa;
+	float: left;
+	padding: 20px;
+	box-sizing:border-box;
+}
+
+footer{
+	background: #6c757d;
+	color: #fff;
+	clear: both;
+	padding: 10px 0;
+	text-align: center;
+}
